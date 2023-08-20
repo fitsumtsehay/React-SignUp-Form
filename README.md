@@ -18,7 +18,7 @@ Prevent the default behaviour of the form when the user clicks the submit button
 ### Step 4
 Implement the body of getIsFormValid function to return true if the form is valid and false otherwise. This determines the submit button state. The rules for the form to be valid are as follows:
 The first name cannot be empty.
-The email must be a valid email address and can't be empty. A function called validateEmail has already been provided for you to check if the email is valid. It returns true if the email is valid, otherwise  false is returned.
+The email must be a valid email address and can't be empty. If the function validateEmail returns true the email is valid, otherwise  false is returned.
 The password must be at least 8 characters long.
 The role must be either individual or business.
 
